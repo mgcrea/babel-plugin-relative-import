@@ -1,10 +1,11 @@
 # Babel Plugin Relative Import
 
-Import relative files with ease<br>
 [![Build Status](https://travis-ci.org/mgcrea/babel-plugin-relative-import.svg?branch=master)](https://travis-ci.org/mgcrea/babel-plugin-relative-import)
 [![Dependency Status](https://david-dm.org/mgcrea/babel-plugin-relative-import.svg)](https://david-dm.org/mgcrea/babel-plugin-relative-import)
 [![devDependency Status](https://david-dm.org/mgcrea/babel-plugin-relative-import/dev-status.svg)](https://david-dm.org/mgcrea/babel-plugin-relative-import#info=devDependencies)
 [![https://github.com/mgcrea/babel-plugin-relative-import](https://img.shields.io/npm/dm/babel-plugin-relative-import.svg)](https://www.npmjs.com/package/babel-plugin-relative-import)
+
+Import relative files with ease
 
 ```js
 import fooHelper from '~/helpers/example.js';
