@@ -2,7 +2,7 @@ import pluginHelper from '../src/helper';
 import path from 'path';
 import {expect} from 'chai';
 
-describe('Babel Root Import - Helper', () => {
+describe('helper', () => {
 
   describe('transformRelativeToRootPath', () => {
     it('returns a string', () => {

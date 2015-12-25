@@ -8,7 +8,7 @@ function transformRelativeToRootPath(path, filePath, rootPathSuffix = '') {
     const withoutTilde = path.substring(2, path.length);
     if (startsWith(rootPathSuffix, '%/')) {
       const suffix = rootPathSuffix.substring(1, rootPathSuffix.length);
-      const localRoot = dirname(findPkg.sync(filePath));
+      const localRoot = dirname(findPkg.sync(fileBase));
       return './' + relative(fileBase, `${localRoot}${suffix}/${withoutTilde}`);
     }
     const suffix = '/' + rootPathSuffix.replace(/^(\/)|(\/)$/g, '');
