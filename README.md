@@ -42,6 +42,8 @@ You can use a custom root with the `rootPathSuffix` option.
 }
 ```
 
+You can also use a path starting with `%/` in your `rootPathSuffix` to automatically resolve the closest `package.json`.
+
 ## Inspiration
 
 Inspired by the [babel-root-import](https://github.com/michaelzoidl/babel-root-import) from Michael J. Zoidl.
