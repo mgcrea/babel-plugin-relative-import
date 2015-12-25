@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb/base",
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "no-console": 0,
+    "object-curly-spacing": [2, "never"],
+    "no-unused-vars": [2, {"args": "none"}],
+    "no-use-before-define": [2, "nofunc"],
+    "padded-blocks": 0,
+    "no-unused-expressions": 0,
+    "id-length": 0
+  },
+  "globals": {
+    "it": false,
+    "describe": false,
+    "expect": false
+  }
+}
