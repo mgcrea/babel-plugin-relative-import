@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-relative-import",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel Plugin to enable relative imports",
   "main": "lib/index.js",
   "repository": "mgcrea/babel-plugin-relative-import",
