@@ -1,9 +1,12 @@
 # Babel Plugin Relative Import
 
-[![Build Status](https://travis-ci.org/mgcrea/babel-plugin-relative-import.svg?branch=master)](https://travis-ci.org/mgcrea/babel-plugin-relative-import)
-[![Dependency Status](https://david-dm.org/mgcrea/babel-plugin-relative-import.svg)](https://david-dm.org/mgcrea/babel-plugin-relative-import)
-[![devDependency Status](https://david-dm.org/mgcrea/babel-plugin-relative-import/dev-status.svg)](https://david-dm.org/mgcrea/babel-plugin-relative-import#info=devDependencies)
-[![https://github.com/mgcrea/babel-plugin-relative-import](https://img.shields.io/npm/dm/babel-plugin-relative-import.svg)](https://www.npmjs.com/package/babel-plugin-relative-import)
+![Deprecated](https://img.shields.io/badge/status-deprecated-red.svg)
+
+**🚧 This module is deprecated and not maintained anymore 🚧**
+
+**Please use [babel-plugin-module-name-mapper](https://github.com/mgcrea/babel-plugin-module-name-mapper) instead.**
+
+## Readme
 
 Import relative files with ease
 
